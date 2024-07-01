@@ -1,14 +1,16 @@
-# *Expense Tracker*
+# **Expense Tracker**
 
 Expense Tracker is a Flutter application that helps users track their daily expenses efficiently. The app provides features for adding new expenses, viewing a list of expenses, and visualizing expense data with charts.
 
+
 ### *Features*
 
-*Add New Expenses:* Easily add new expense items with details such as title, amount, and date.
+**Add New Expenses:** Easily add new expense items with details such as title, amount, and date.
 
-*View Expenses*: See a list of all expenses with the ability to delete them.
+**View Expenses**: See a list of all expenses with the ability to delete them.
 
-*Expense Charts:* Visualize expenses in a bar chart to get insights into spending patterns.
+**Expense Charts:** Visualize expenses in a bar chart to get insights into spending patterns.
+
 
 
 ### *File Structure*
@@ -29,4 +31,51 @@ The project consists of the following Dart files:
 
 [expenses_list.dart](https://github.com/Yashwant1105/Expense_Tracker/blob/main/lib/widgets/expenses_list/expenses_list.dart): Provides a list view of all expense items.
 
-[new_expenses.dart](https://github.com/Yashwant1105/Expense_Tracker/blob/main/lib/new_expenses.dart): Contains the UI and logic for adding new expenses[
+[new_expenses.dart](https://github.com/Yashwant1105/Expense_Tracker/blob/main/lib/new_expenses.dart): Contains the UI and logic for adding new expenses.
+
+
+
+### *Flutter Concepts Used*
+
+- **State Management**: Uses native Flutter implementation with StatefulWidget and setState.
+- **Navigation**: Implements modal bottom sheets for input forms.
+- **Custom Widgets**: Encapsulates UI components like expense items and charts.
+- **Theming and Styling**: Uses ThemeData contexts, LinearGradient, and other styling techniques.
+- **Asset Management**: Efficiently manages icons and other assets with careful attention to related Element Tree.
+  
+
+### *Setup and Installation*
+
+#### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
+- An editor like [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/).
+
+#### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/expense-tracker.git
+   cd expense-tracker
+   ```
+    
+
+2. **Install Dependencies**:
+   ```bash
+   flutter pub get
+   ```
+    
+
+3. **Run the App**:
+  ```bash
+  flutter run
+  ```
+
+
+### *Usage*
+
+1. Launch the app on your device or emulator.
+2. Press the "+" button to add a new expense.
+3. Fill in the expense details (title, amount, date, and category).
+4. View the list of expenses and the corresponding chart.
+5. Swipe left or right on an expense to delete it, with an option to undo.
