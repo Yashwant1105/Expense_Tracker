@@ -79,3 +79,20 @@ The project consists of the following Dart files:
 3. Fill in the expense details (title, amount, date, and category).
 4. View the list of expenses and the corresponding chart.
 5. Swipe left or right on an expense to delete it, with an option to undo.
+
+### *Flutter Concepts Used:*
+
+- **State Management:**
+  - Uses native Flutter implementation with `StatefulWidget` and `setState` for managing dynamic UI changes.
+
+- **Navigation:**
+  - Implements modal bottom sheets for input forms to enhance user interaction and workflow.
+
+- **Custom Widgets:**
+  - Encapsulates UI components like expense items and charts into reusable custom widgets for modularity and maintainability.
+
+- **Theming and Styling:**
+  - Utilizes `ThemeData` contexts, `LinearGradient`, and other styling techniques for consistent visual aesthetics.
+
+- **Asset Management:**
+  - Efficiently manages icons and other assets with careful consideration of their impact on the Element Tree.
