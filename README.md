@@ -56,7 +56,7 @@ The project consists of the following Dart files:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Yashwant1105/Expense_Tracker.git
-   cd expense-tracker
+   cd Expense_Tracker
    ```
     
 
