@@ -67,9 +67,9 @@ The project consists of the following Dart files:
     
 
 3. **Run the App**:
-  ```bash
-  flutter run
-  ```
+   ```bash
+   flutter run
+   ```
 
 
 ### *Usage*
