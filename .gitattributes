@@ -1,5 +1,4 @@
 *.dart linguist-language=Dart
+*.cpp linguist-vendored
+CMakeLists.txt linguist-vendored
 
-*.md linguist-documentation
-*.jpg linguist-vendored
-*.png linguist-vendored
